@@ -1,8 +1,6 @@
 <?php
 # Clock Angle Problem algorithm
-# Brenden Ellingboe - ellingboe.b@gmail.com
-#
-# Clock class
+
 
 function AngleOfClock($hours, $minutes) { 
   $hours = $hours % 12;
